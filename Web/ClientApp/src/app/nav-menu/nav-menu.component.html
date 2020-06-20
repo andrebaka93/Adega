@@ -1,0 +1,25 @@
+<header>
+  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+    <div class="container">
+      <h2 class="text-light">Controle de Estoque</h2>
+      <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
+           [ngClass]="{ show: isExpanded }">
+        <ul class="navbar-nav flex-grow">
+          <li class="nav-item"
+              [routerLinkActive]="['link-active']"
+              [routerLinkActiveOptions]="{ exact: true }"
+              *ngIf="usuario.login == 'admin'">
+            <a class="nav-link text-light" (click)="redirect('clientes')">Clientes</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" (click)="redirect('produtos')">Produtos</a>
+          </li>
+
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" (click)="logOff()">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

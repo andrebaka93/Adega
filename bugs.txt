@@ -1,0 +1,31 @@
+4. Aceita saída com quantidade maior que a disponível
+5. Mudar a cor quando o campo está em foco
+6. Na todas as quantidades pemitem decimal
+7. Tela de cadastro ser modal
+10. Quantidades e valor pago permitem digitar valor infinito
+15. Exibir valor unitário?
+
+11. Permite cadastrar nome igual já cadastrado
+12. "Itens por página" em português
+
+
+Colocar cadastro "DO PRODUTO", nome "DO PRODUTO"
+Tratar valores vazios pra campos não obrigatórios
+Incluir preço nos produtos cadastrados
+Tela com formulário pra extração de relatório 
+	Resultado em tela com opção de impressão
+Forma de pagamento na saída (Dinheiro Debito e Crédito)
+
+Corrigido
+1. Deixa salvar sem Nome
+19. Ordenação por nome do produto ordem alfabética
+2. Descrição sem ç e ã
+3. Quantidade faltando d
+8. Identificar os campos obrigatórios
+9. Permite salvar sem valor pago
+13. Na entrada e saída mudar ou remover o texto "Informe a quantidade:" já que agora também tem valor
+14. Campo "Valor pago" ser "Valor total pago"
+16. Permite digitar Nome e descrição maior que o permitido
+17. Quebra a formatação quando a descrição é grande
+18. Centralizar bolinhas  de mais e menos no meio da linha
+20. Sugestão: Desabilitar "-" quando a quantidade for zero

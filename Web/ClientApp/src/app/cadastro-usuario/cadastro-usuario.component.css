@@ -1,0 +1,40 @@
+
+.form-cadastro {
+  width: 100%;
+  align-self: center;
+  display: inline-grid;
+  grid-template: "nome nome ." auto "login senha confirmacaoSenha" auto / auto auto auto;
+  justify-items: start;
+}
+
+.form-botoes {
+  width: 30%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  margin-top: 20px;
+  width: 70%;
+}
+
+mat-form-field {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.nome {
+  grid-area: nome;
+}
+
+.login {
+  grid-area: login;
+}
+
+.senha{
+  grid-area: senha;
+}
+
+.confirmacaoSenha {
+  grid-area: confirmacaoSenha;
+}

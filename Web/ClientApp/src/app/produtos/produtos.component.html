@@ -1,0 +1,37 @@
+<app-nav-menu></app-nav-menu>
+
+<h2>Produtos</h2>
+
+<button class="btnCadastrar" mat-raised-button [routerLink]="['/cadastro-produto']">Cadastrar</button>
+
+<table mat-table [dataSource]="produtosPaginados" class="mat-elevation-z8">
+
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+  <!-- Position Column -->
+  <mat-text-column name="nome"></mat-text-column>
+
+  <ng-container matColumnDef="descricao">
+    <th mat-header-cell *matHeaderCellDef> Descrição </th>
+    <td mat-cell *matCellDef="let item"> {{item.descricao}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="quantidadeDisponivel">
+    <th mat-header-cell *matHeaderCellDef> Quantidade disponível </th>
+    <td mat-cell *matCellDef="let item"> {{item.quantidadeDisponivel}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="controles">
+    <th mat-header-cell *matHeaderCellDef> </th>
+    <td mat-cell *matCellDef="let item"   class="controles">
+      <button tooltip="entrada" mat-mini-fab class="btnEntrada" (click)="abrirPopUp(item.idProduto, 'Entrada')"><mat-icon>add</mat-icon></button>
+      <button [disabled]="item.quantidadeDisponivel < 1" tooltip="saida" mat-mini-fab class="btnSaida" (click)="abrirPopUp(item.idProduto, 'Saída')"><mat-icon>remove</mat-icon></button>
+      <button tooltip="exclusão" mat-mini-fab class="btnExcluir" (click)="abrirPopUpExclusao(item.idProduto)"><mat-icon>clear</mat-icon></button>
+      <!--<button mat-mini-fab class="btnEditar" (click)="abrirPopUp(item.idProduto, 'Entrada')"><mat-icon>edit</mat-icon></button>-->
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator *ngIf="produtos" [length]="produtos.length" [pageSize]="5" (page)="paginar($event)"></mat-paginator>

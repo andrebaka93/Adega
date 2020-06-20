@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+}
+
+.btnCadastrar {
+  margin-bottom: 20px;
+}
+
+.controles {
+  align-items: center;
+  text-align: center;
+  padding-inline-end: unset;
+}
+
+.mat-column-nome {
+  width: 30%;
+}
+
+.mat-column-endereco {
+  width: 50%;
+  max-width: 50rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mat-header-cell, .mat-column-ativo {
+  text-align: center;
+}

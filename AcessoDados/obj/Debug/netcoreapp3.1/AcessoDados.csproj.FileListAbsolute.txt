@@ -1,0 +1,12 @@
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\bin\Debug\netcoreapp3.1\AcessoDados.deps.json
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\bin\Debug\netcoreapp3.1\AcessoDados.dll
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.AssemblyInfo.cs
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\bin\Debug\netcoreapp3.1\Entidade.dll
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\bin\Debug\netcoreapp3.1\AcessoDados.pdb
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\bin\Debug\netcoreapp3.1\Entidade.pdb
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.csproj.CopyComplete
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.dll
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.pdb
+C:\Users\andre\Documents\Projetos\Adega_Estoque\AcessoDados\obj\Debug\netcoreapp3.1\AcessoDados.csproj.CoreCompileInputs.cache

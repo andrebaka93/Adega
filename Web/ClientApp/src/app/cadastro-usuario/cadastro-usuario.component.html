@@ -1,0 +1,34 @@
+<app-nav-menu></app-nav-menu>
+
+<div class="tela">
+  <h2>Cadastro de usuário</h2>
+  <form [formGroup]="formUsuario" (ngSubmit)="submitForm(formUsuario.value)">
+    <div class="form-cadastro">
+      <mat-form-field appearance="fill" class="nome">
+        <mat-label>Nome</mat-label>
+        <input matInput maxlength="30" placeholder="Nome" formControlName="nome" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="login">
+        <mat-label>Login</mat-label>
+        <input type="text" maxlength="15" matInput placeholder="Login" formControlName="login" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="senha">
+        <mat-label>Senha</mat-label>
+        <input type="password" maxlength="30" matInput placeholder="Senha" formControlName="senha" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="confirmacaoSenha">
+        <mat-label>Confirme sua senha</mat-label>
+        <input type="password" maxlength="30" matInput placeholder="Confirme sua senha" formControlName="confirmacaoSenha" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-botoes">
+      <button mat-raised-button type="submit">Salvar</button>
+      <button mat-raised-button [routerLink]="['/clientes']">Cancelar</button>
+    </div>
+  </form>
+
+</div>

@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>{{data.titulo}}</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Quantidade</mat-label>
+    <input matInput required type="number" [(ngModel)]="quantidade">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Valor total pago</mat-label>
+    <input matInput required currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" step="any" [(ngModel)]="valor">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelar()">Cancelar</button>
+  <button mat-button (click)="salvar()" cdkFocusInitial>Salvar</button>
+</div>

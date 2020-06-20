@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+}
+
+.btnCadastrar {
+  margin-bottom: 20px;
+}
+
+.controles {
+  /*display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;*/
+  align-items: center;
+  text-align: center;
+  padding-inline-end: unset;
+}
+
+.mat-column-descricao {
+  max-width: 22rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mat-column-quantidadeDisponivel {
+  text-align: center;
+}
+
+.mat-header-cell {
+  text-align: center;
+}
+
+.btnEntrada {
+  background-color: #89ed19;
+  margin-right: 0.75rem;
+}
+
+.btnSaida {
+  background-color: #f8b618;
+  margin-right: 0.75rem;
+}
+
+.btnExcluir {
+  background-color: #f62020;
+}
+
+.btnEditar {
+  background-color: #f5e31a;
+}

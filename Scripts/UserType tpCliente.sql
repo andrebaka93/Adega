@@ -1,0 +1,6 @@
+CREATE TYPE tpCliente AS TABLE(
+	IdCliente INT NOT NULL,
+	Nome VARCHAR(100) NOT NULL,
+	Endereco VARCHAR(300) NOT NULL,
+	Ativo BIT
+)
