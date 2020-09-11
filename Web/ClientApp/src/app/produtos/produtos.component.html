@@ -2,7 +2,7 @@
 
 <h2>Produtos</h2>
 
-<button class="btnCadastrar" mat-raised-button [routerLink]="['/cadastro-produto']">Cadastrar</button>
+<button class="btnCadastrar" mat-raised-button (click)="cadastro()">Cadastrar</button>
 
 <table mat-table [dataSource]="produtosPaginados" class="mat-elevation-z8">
 

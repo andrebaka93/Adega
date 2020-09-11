@@ -18,20 +18,18 @@ export class CadastroUsuarioComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder, private service: UsuarioService, private route: Router, private toastr: ToastrService) {
     this.idCliente = this.route.getCurrentNavigation().extras.state.idCliente;
-    
+
     this.formUsuario = this.formBuilder.group({
       idUsuario: 0,
       nome: '',
       login: '',
       senha: '',
       confirmacaoSenha: '',
-      idCliente: 0
+      idCliente: this.idCliente
     });
   }
 
-  ngOnInit() {
-
-  }
+  ngOnInit() { }
 
   submitForm(usuario: Usuario) {
     //Validação
@@ -72,6 +70,7 @@ export class CadastroUsuarioComponent implements OnInit {
   }
 
   voltar() {
-    this.route.navigateByUrl('/clientes');
+    this.route.navigate(['/clientes'], { state: { idCliente: this.idCliente } });
   }
+
 }

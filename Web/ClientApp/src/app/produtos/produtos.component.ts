@@ -82,6 +82,10 @@ export class ProdutosComponent implements OnInit, OnChanges {
     else
       this.displayedColumns = ['nome', 'descricao', 'quantidadeDisponivel', 'controles'];
   }
+
+  cadastro() {
+    this.route.navigateByUrl('/cadastro-produto', { state: { idCliente: this.idCliente } });
+  }
 }
 
 export interface DataPopUp {

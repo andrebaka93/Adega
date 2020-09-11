@@ -13,15 +13,16 @@ import { ToastrService } from 'ngx-toastr';
 
 export class CadastroProdutoComponent {
   formProduto;
-
+  idCliente;
   constructor(private formBuilder: FormBuilder, private service: ProdutosService, private route: Router, private toastr: ToastrService) {
+    this.idCliente = this.route.getCurrentNavigation().extras.state.idCliente;
     this.formProduto = this.formBuilder.group({
       nome: '',
       descricao: '',
       quantidadeDisponivel: null,
       alertaMinimo: null,
       alertaMaximo: null,
-      idCliente: 1,
+      idCliente: this.idCliente,
       idProduto: 0
     });
   }
@@ -40,12 +41,14 @@ export class CadastroProdutoComponent {
     }
 
     if (!erro) {
-      this.service.salvarProduto(produto).subscribe(() => this.route.navigateByUrl('/produtos'));
+      this.service.salvarProduto(produto).subscribe(() =>
+        this.route.navigateByUrl('/produtos', { state: { idCliente: this.idCliente } })
+      );
     }
   }
 
   voltar() {
-    this.route.navigateByUrl('/produtos');
+    this.route.navigateByUrl('/produtos', { state: { idCliente: this.idCliente }});
   }
 
 }

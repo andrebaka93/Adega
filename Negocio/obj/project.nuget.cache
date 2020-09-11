@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gHagNLaQRNtbcWy/YTUqCMyq+FLjcS5xcx0byJt6lsfJVUOiQUsVn3E2IvFRaDziA6RhhmVYHdLYXXPs3KdgnQ==",
+  "dgSpecHash": "x5gyY931dFcqpOfClJIPfXAdejF3HP+y5CzhIIPT6FBNJDKD21BlyXHve32qi2X7VwbKqRgQ27Ud3qBlkO1I7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos\\Adega_Estoque\\Negocio\\Negocio.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos\\GitHub\\Adega\\Negocio\\Negocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

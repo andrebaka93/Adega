@@ -7,3 +7,12 @@ C:\Users\andre\Documents\Projetos\Adega_Estoque\Entidade\obj\Debug\netcoreapp3.1
 C:\Users\andre\Documents\Projetos\Adega_Estoque\Entidade\obj\Debug\netcoreapp3.1\Entidade.pdb
 C:\Users\andre\Documents\Projetos\Adega_Estoque\Entidade\obj\Debug\netcoreapp3.1\Entidade.csprojAssemblyReference.cache
 C:\Users\andre\Documents\Projetos\Adega_Estoque\Entidade\obj\Debug\netcoreapp3.1\Entidade.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\bin\Debug\netcoreapp3.1\Entidade.deps.json
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\bin\Debug\netcoreapp3.1\Entidade.dll
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\bin\Debug\netcoreapp3.1\Entidade.pdb
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.AssemblyInfo.cs
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.dll
+C:\Users\andre\Documents\Projetos\GitHub\Adega\Entidade\obj\Debug\netcoreapp3.1\Entidade.pdb

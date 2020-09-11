@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vHS6Tdg1LD3b1sX/pKrey8ZVkkXDOHaffZN9z1/UsvwSQ0dsZ05YKpa9H3rsvHYM1/DMObFM8lecNbn9Jj2bA==",
+  "dgSpecHash": "Le6DpkrFFNOXD0Btjv0VmjXFjDSJClOP+KF+iSUnzNhBQ5sGUsgp3nUZi2uYTXmFaC7ACNJtBm7BrhmnVNafog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos\\Adega_Estoque\\AcessoDados\\AcessoDados.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos\\GitHub\\Adega\\AcessoDados\\AcessoDados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

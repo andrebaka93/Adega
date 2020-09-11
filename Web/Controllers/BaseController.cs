@@ -17,7 +17,13 @@ namespace Web.Controllers
 
 		protected string PegarStringConexao()
 		{
-			return config.GetConnectionString("DB_ADEGA");
+#if DEBUG
+			return config.GetConnectionString("DB_ADEGA_LOCAL");
+#endif
+#if !DEBUG
+			return config.GetConnectionString("DB_ADEGA_AZURE");
+#endif
+
 		}
 	}
 }
